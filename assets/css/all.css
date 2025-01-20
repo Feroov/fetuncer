@@ -8004,7 +8004,6 @@ readers do not read off random characters that represent icons */
   src: url("../webfonts/fa-v4compatibility.woff2") format("woff2"), url("../webfonts/fa-v4compatibility.ttf") format("truetype");
   unicode-range: U+F041,U+F047,U+F065-F066,U+F07D-F07E,U+F080,U+F08B,U+F08E,U+F090,U+F09A,U+F0AC,U+F0AE,U+F0B2,U+F0D0,U+F0D6,U+F0E4,U+F0EC,U+F10A-F10B,U+F123,U+F13E,U+F148-F149,U+F14C,U+F156,U+F15E,U+F160-F161,U+F163,U+F175-F178,U+F195,U+F1F8,U+F219,U+F27A; }
 
-/* Portfolio Cards */
 .bg-dark-lighter {
   background: linear-gradient(145deg, #1e1e1e, #2d2d2d);
   border-radius: 10px;
@@ -8018,7 +8017,6 @@ readers do not read off random characters that represent icons */
   background: linear-gradient(145deg, #2b2b2b, #3c3c3c);
 }
 
-/* Tools List */
 .tools-list li {
   margin-bottom: 8px;
   font-size: 1.1rem;
@@ -8038,7 +8036,6 @@ readers do not read off random characters that represent icons */
   transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), color 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-/* Buttons */
 .btn-primary {
   background: linear-gradient(145deg, #f39c12, #e67e22);
   border: none;
@@ -8073,7 +8070,6 @@ readers do not read off random characters that represent icons */
   box-shadow: 0 4px 8px rgba(243, 156, 18, 0.2);
 }
 
-/* Avatar */
 img.img-mask-avatar-3xl {
   width: 100%;
   max-width: 250px;
@@ -8088,7 +8084,7 @@ img.img-mask-avatar-3xl:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Cards */
+
 .card {
   display: flex;
   flex-direction: column;
@@ -8101,19 +8097,17 @@ img.img-mask-avatar-3xl:hover {
   transform: translateY(-5px);
 }
 
-/* Text Highlight */
+
 .text-highlight {
   color: #f39c12;
 }
 
-/* Icons */
 .icon-highlight {
   color: #f39c12;
   font-size: 1.2rem;
   vertical-align: middle;
 }
 
-/* Large Icons */
 .icon-lg {
   font-size: 3rem;
 }
@@ -8129,13 +8123,12 @@ p.text-muted {
   color: #b0b0b0 !important;
 }
 
-/* Card Images */
 .card-img-top {
-  height: 200px; /* Ensures all images have a consistent height */
-  width: 100%; /* Ensures the image fills the card's width */
-  object-fit: cover; /* Ensures images are cropped to fit the container without distortion */
-  border-radius: 10px 10px 0 0; /* Matches the card's rounded corners */
-  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1); /* Keeps the hover effect */
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .card-img-top:hover {
   transform: scale(1.05);
@@ -8166,7 +8159,6 @@ p.text-muted {
   }
 }
 
-
 #form-message {
   font-size: 14px;
   font-weight: bold;
@@ -8175,9 +8167,29 @@ p.text-muted {
 }
 
 #form-message.text-success {
-  color: #28a745; /* Green for success */
+  color: #28a745;
 }
 
 #form-message.text-danger {
-  color: #dc3545; /* Red for error */
+  color: #dc3545;
+}
+
+.section-xl {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.section-xl h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  line-height: 1.2;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.section-xl p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-top: 1rem;
 }
