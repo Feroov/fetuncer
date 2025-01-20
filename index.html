@@ -27,7 +27,6 @@
 		* {
 			box-sizing: border-box;
 		}
-		
 	</style>
 	<!-- Fonts/Icons -->
 	<link href="./assets/css/all.css" rel="stylesheet">
@@ -349,6 +348,19 @@
 				messageBox.style.display = 'none';
 			}, 5000);
 		}
+	</script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// Prevent touchmove events that cause horizontal scrolling
+			document.addEventListener("touchmove", function (event) {
+				if (event.touches[0].clientX !== event.touches[0].screenX) {
+					event.preventDefault();
+				}
+			}, { passive: false });
+		});
+
+
 	</script>
 </body>
 
